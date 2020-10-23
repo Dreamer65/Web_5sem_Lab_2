@@ -1,0 +1,157 @@
+html,
+body {
+    height: 100%;
+    font-family: Roboto;
+}
+.container {
+	display: flex;
+	flex-flow: column nowrap;
+	min-height: 100%;
+}
+
+.header{
+    flex: 0 0 auto;
+    height: 100px;
+    background: #C4C4C4;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.menuBtn{
+    flex: 1 0 auto;
+    height: inherit;
+    min-width: 200 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    background: #888787;
+}
+
+.menuSpacer{
+    flex: 5 0 auto;
+}
+
+.content {
+    flex: 1 0 auto;
+    background: #FFFFFF;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+}
+
+.block{
+    flex: 1 0 auto;
+    margin: 20px;
+    background: #FFFFFF;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 90%;
+}
+
+.blockName{
+    align-self: start;
+    font-size: 32px;
+}
+
+.blockContent{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+
+    /* background: chartreuse; */
+}
+
+.item{
+    margin: 25px;
+    max-height: 300px;
+    min-width: 200px;
+    max-width: 200px;
+    background: #E3E3E3;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.itemContent{
+    min-height: 90%;
+    max-height: 90%;
+    flex: 5 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemAddToCart{
+    flex: 1 0 auto;
+    margin: 0 20px 20px 0;
+
+    height: 30px;
+    width: 100px;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FF8484;
+}
+
+.itemName{
+    flex: 1 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.itemImg{
+    flex: 1 0 auto;
+    max-width: 90%;
+    max-height: 50%;
+}
+
+.itemPrice{
+    flex: 1 0 auto;
+    margin: 0 0 0 30px;
+    align-self: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-size: 24px;
+    color: #05d301;
+}
+
+.itemOldPrice{
+    flex: 1 0 auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+    text-decoration: line-through;
+    color: #ff0000;
+}
+
+.footer {
+    flex: 0 0 auto;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    background: #FF8484;
+}
